@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MDB  -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Dangrek Font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Cairo  Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Gothic Font  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style/gooduntilnow.css" />
+  </head>
+  <body>
+    <!-- Header Section  -->
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-expand-lg bg-body-navbar fixed-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="image/ayitslogo.svg" class="img-fluid logo" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler order-lg-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse order-lg-1 justify-content-lg-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-lg-4 text-center custom-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">الصفحة الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">لمحة عن القمة</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#speakers">المتحدثين</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sponsors">الزملاء الشركاء</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">أخر الاخبار</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home-page">
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex flex-column text-end home-r">
+          <p class="hero-t">قمة الابتكار والتكنولوجيا</p>
+          <p class="mb-1 green-eff hero-t">
+            للشباب العربي
+            <svg
+              class="green-line"
+              viewBox="0 0 404 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M1 10.9772C53.231 7.14696 243.352 -0.302536 399 10.9772C318.205 10.9772 212.937 12.1178 145.157 24"
+                stroke="#00AA8B"
+                stroke-width="10"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
+          <h3 class="mb-1 mt-3 typed-out">نحو مستقبل عربي رقمي ...</h3>
+          <div class="binary">
+            <p class="twenty-five">Loading...</p>
+            <p class="binary1">Loading...</p>
+            <p class="binary2">Loading...</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div id="particles-js"></div>
+
+          <img src="image/face1.svg" alt="" width="100%" />
+        </div>
+      </div>
+    </section>
+    <div class="wave"></div>
+    <section id="events">
+      <img src="image/triangles1.png" class="triangles" alt="" />
+
+      <div class="intro-switcher">
+        <div class="line1"></div>
+        <p id="text-switchig"></p>
+        <div class="line2"></div>
+      </div>
+      <div class="container mb-5 mt-3">
+        <div class="heading">
+          <h3 class="title">الفعاليات والبرامج</h3>
+          <h5 class="subtitle">الجلسات والمسابقات</h5>
+        </div>
+        <img src="image/dots.svg" class="dottss-l" alt="" />
+        <img src="image/dots.svg" class="dottss-r" alt="" />
+
+        <div class="parent">
+          <div class="event-1 bg-image hover-zoom">
+            <img src="image/تطور1.png" alt="" />
+
+            <div class="whole">
+              <div class="top">
+                <div class="location">
+                  <i class="bi bi-geo-alt"></i>
+                  <p>عمان، الأردن</p>
+                  <!-- <img src="image/تطور1.png" alt="" /> -->
+                </div>
+                <div><p>Max 30</p></div>
+              </div>
+              <div class="content">
+                <h6>برمج. ابتكر. انطلق</h6>
+                <p>
+                  فعالية تفاعلية تجمع بين التدريب العملي، الإرشاد المهني، وفرص
+                  بناء تطبيقات ومشاريع تقنية حقيقية بمساعدة خبراء في المجال.
+                </p>
+              </div>
+            </div>
+            <div class="overlay"></div>
+          </div>
+          <div class="event-2 bg-image hover-zoom">
+            <img src="image/تطور2.png" alt="" />
+
+            <div class="whole">
+              <div class="top">
+                <div class="location">
+                  <i class="bi bi-geo-alt"></i>
+                  <p>عمان، الأردن</p>
+                  <!-- <img src="image/تطور1.png" alt="" /> -->
+                </div>
+                <div><p>Max 30</p></div>
+              </div>
+              <div class="content">
+                <h6>برمج. ابتكر. انطلق</h6>
+                <p>
+                  فعالية تفاعلية تجمع بين التدريب العملي، الإرشاد المهني، وفرص
+                  بناء تطبيقات ومشاريع تقنية حقيقية بمساعدة خبراء في المجال.
+                </p>
+              </div>
+            </div>
+            <div class="overlay"></div>
+          </div>
+          <div class="event-3 bg-image hover-zoom">
+            <img src="image/تطور3.png" alt="" />
+
+            <div class="whole">
+              <div class="top">
+                <div class="location">
+                  <i class="bi bi-geo-alt"></i>
+                  <p>عمان، الأردن</p>
+                  <!-- <img src="image/تطور1.png" alt="" /> -->
+                </div>
+                <div><p>Max 30</p></div>
+              </div>
+              <div class="content">
+                <h6>برمج. ابتكر. انطلق</h6>
+                <p>
+                  فعالية تفاعلية تجمع بين التدريب العملي، الإرشاد المهني، وفرص
+                  بناء تطبيقات ومشاريع تقنية حقيقية بمساعدة خبراء في المجال.
+                </p>
+              </div>
+            </div>
+            <div class="overlay"></div>
+          </div>
+          <div class="event-4 bg-image hover-zoom">
+            <img src="image/تطور4.png" alt="" />
+
+            <div class="whole">
+              <div class="top">
+                <div class="location">
+                  <i class="bi bi-geo-alt"></i>
+                  <p>عمان، الأردن</p>
+                  <!-- <img src="image/تطور1.png" alt="" /> -->
+                </div>
+                <div><p>Max 30</p></div>
+              </div>
+              <div class="content">
+                <h6>برمج. ابتكر. انطلق</h6>
+                <p>
+                  فعالية تفاعلية تجمع بين التدريب العملي، الإرشاد المهني، وفرص
+                  بناء تطبيقات ومشاريع تقنية حقيقية بمساعدة خبراء في المجال.
+                </p>
+              </div>
+            </div>
+            <div class="overlay"></div>
+          </div>
+          <div class="event-5 bg-image hover-zoom">
+            <img class="" src="image/تطور5.png" alt="" />
+            <div class="live">
+              <!-- <div class="outer-cricle"> -->
+              <div class="inner-circle pulse"></div>
+              <!-- </div> -->
+              <p>بث مباشر</p>
+            </div>
+            <div class="video-player">
+              <svg
+                width="33"
+                height="38"
+                viewBox="0 0 33 38"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M29.8982 14.7688L8.24186 1.41948C6.67507 0.454902 4.78079 0.414798 3.17454 1.3122C1.5683 2.20946 0.609375 3.84378 0.609375 5.68364V32.2607C0.609375 35.0427 2.85092 37.3181 5.60593 37.3331C5.61345 37.3331 5.62097 37.3332 5.62835 37.3332C6.4893 37.3331 7.38649 37.0633 8.22446 36.5519C8.89857 36.1407 9.11162 35.2608 8.70034 34.5868C8.28905 33.9126 7.40905 33.6996 6.73516 34.1109C6.34321 34.3499 5.96043 34.4736 5.62133 34.4735C4.58184 34.4679 3.46888 33.5774 3.46888 32.2608V5.68371C3.46888 4.89444 3.88023 4.19355 4.56917 3.80862C5.25817 3.42369 6.07064 3.44088 6.74189 3.85417L28.3983 17.2035C29.0492 17.6043 29.4216 18.2725 29.4201 19.0369C29.4185 19.8013 29.0433 20.468 28.3888 20.8674L12.7312 30.4543C12.0577 30.8667 11.846 31.7469 12.2584 32.4203C12.6707 33.0937 13.5509 33.3054 14.2243 32.8931L29.8801 23.3073C31.3791 22.3929 32.2761 20.7987 32.2797 19.0426C32.2833 17.2868 31.3927 15.6889 29.8982 14.7688Z"
+                  fill="#0F172A"
+                />
+              </svg>
+            </div>
+            <div class="content">
+              <h5>برمج. ابتكر. انطلق</h5>
+              <p>
+                فعالية تفاعلية تجمع بين التدريب العملي، الإرشاد المهني، وفرص
+                بناء تطبيقات ومشاريع تقنية حقيقية بمساعدة خبراء في المجال.
+              </p>
+            </div>
+            <div class="overlay"></div>
+          </div>
+        </div>
+
+        <!-- set color black  -->
+        <button class="btn sponsor-button"><a href="">عرض الكل</a></button>
+      </div>
+    </section>
+    <!-- shabab  voice section  -->
+    <div class="shabab-voice">
+      <div class="row g-0 flex-column flex-md-row align-items-stretch">
+        <div class="col-12 col-md-6 shabab-r">
+          <div class="head-title">
+            <h3>صوت الشباب</h3>
+            <p>قصص وتجارب ملهمة للمشاركين</p>
+          </div>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="shabab-profile">
+                  <img src="image/person1.jpg" alt="سامي" />
+                  <div>
+                    <p class="name">سامي</p>
+                    <p>المفكر المبتكر</p>
+                  </div>
+                </div>
+                <p class="contnet">
+                  من بائع بسيط إلى مطوّر تطبيقات يستخدمه آلاف المستخدمين شابًا
+                  عاديًا يعمل في متجر لبيع الهواتف الذكية في حي صغير. لم يكن
+                  لديه شهادة جامعية، لكنه كان شغوفًا بالتكنولوجيا. في أوقات
+                  فراغه، بدأ يتعلّم البرمجة عبر دروس مجانية على الإنترنت
+                  باستخدام هاتفه فقط، لأنه لم يملك جهاز كمبيوتر...
+                </p>
+              </div>
+              <div class="carousel-item">
+                <div class="shabab-profile">
+                  <img src="image/person5.jpg" alt="سامي" />
+                  <div>
+                    <p class="name">عبد الله السبيعي</p>
+                    <p>المفكر المبتكر</p>
+                  </div>
+                </div>
+                <p class="contnet">
+                  من بائع بسيط إلى مطوّر تطبيقات يستخدمه آلاف المستخدمين شابًا
+                  عاديًا يعمل في متجر لبيع الهواتف الذكية في حي صغير. لم يكن
+                  لديه شهادة جامعية، لكنه كان شغوفًا بالتكنولوجيا. في أوقات
+                  فراغه، بدأ يتعلّم البرمجة عبر دروس مجانية على الإنترنت
+                  باستخدام هاتفه فقط، لأنه لم يملك جهاز كمبيوتر...
+                </p>
+              </div>
+              <div class="carousel-item">
+                <div class="shabab-profile">
+                  <img src="image/person2.jpg" alt="سامي" />
+                  <div>
+                    <p class="name">ريم العبد الله</p>
+                    <p>المفكر المبتكر</p>
+                  </div>
+                </div>
+                <p class="contnet">
+                  من بائع بسيط إلى مطوّر تطبيقات يستخدمه آلاف المستخدمين شابًا
+                  عاديًا يعمل في متجر لبيع الهواتف الذكية في حي صغير. لم يكن
+                  لديه شهادة جامعية، لكنه كان شغوفًا بالتكنولوجيا. في أوقات
+                  فراغه، بدأ يتعلّم البرمجة عبر دروس مجانية على الإنترنت
+                  باستخدام هاتفه فقط، لأنه لم يملك جهاز كمبيوتر...
+                </p>
+              </div>
+              <div class="carousel-item">
+                <div class="shabab-profile">
+                  <img src="image/person3.jpg" alt="هناء العتيبي" />
+                  <div>
+                    <p class="name">هناء العتيبي</p>
+                    <p>المفكر المبتكر</p>
+                  </div>
+                </div>
+                <p class="contnet">
+                  من بائع بسيط إلى مطوّر تطبيقات يستخدمه آلاف المستخدمين شابًا
+                  عاديًا يعمل في متجر لبيع الهواتف الذكية في حي صغير. لم يكن
+                  لديه شهادة جامعية، لكنه كان شغوفًا بالتكنولوجيا. في أوقات
+                  فراغه، بدأ يتعلّم البرمجة عبر دروس مجانية على الإنترنت
+                  باستخدام هاتفه فقط، لأنه لم يملك جهاز كمبيوتر...
+                </p>
+              </div>
+              <div class="carousel-item">
+                <div class="shabab-profile">
+                  <img src="image/person4.jpg" alt="سارة العمري" />
+                  <div>
+                    <p class="name">سارة العمري</p>
+                    <p>المفكر المبتكر</p>
+                  </div>
+                </div>
+                <p class="contnet">
+                  من بائع بسيط إلى مطوّر تطبيقات يستخدمه آلاف المستخدمين شابًا
+                  عاديًا يعمل في متجر لبيع الهواتف الذكية في حي صغير. لم يكن
+                  لديه شهادة جامعية، لكنه كان شغوفًا بالتكنولوجيا. في أوقات
+                  فراغه، بدأ يتعلّم البرمجة عبر دروس مجانية على الإنترنت
+                  باستخدام هاتفه فقط، لأنه لم يملك جهاز كمبيوتر...
+                </p>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+            </div>
+          </div>
+          <button class="sponsor-button btn borde border-light">
+            <a class="text-light" href="">عرض الكل</a>
+          </button>
+        </div>
+        <div class="col-12 col-md-6 shabab-l">
+          <img src="image/shabab-voice.jpg" alt="" />
+          <div class="overlay"></div>
+          <button class="video-player">
+            <svg
+              width="33"
+              height="38"
+              viewBox="0 0 33 38"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M29.8982 14.7688L8.24186 1.41948C6.67507 0.454902 4.78079 0.414798 3.17454 1.3122C1.5683 2.20946 0.609375 3.84378 0.609375 5.68364V32.2607C0.609375 35.0427 2.85092 37.3181 5.60593 37.3331C5.61345 37.3331 5.62097 37.3332 5.62835 37.3332C6.4893 37.3331 7.38649 37.0633 8.22446 36.5519C8.89857 36.1407 9.11162 35.2608 8.70034 34.5868C8.28905 33.9126 7.40905 33.6996 6.73516 34.1109C6.34321 34.3499 5.96043 34.4736 5.62133 34.4735C4.58184 34.4679 3.46888 33.5774 3.46888 32.2608V5.68371C3.46888 4.89444 3.88023 4.19355 4.56917 3.80862C5.25817 3.42369 6.07064 3.44088 6.74189 3.85417L28.3983 17.2035C29.0492 17.6043 29.4216 18.2725 29.4201 19.0369C29.4185 19.8013 29.0433 20.468 28.3888 20.8674L12.7312 30.4543C12.0577 30.8667 11.846 31.7469 12.2584 32.4203C12.6707 33.0937 13.5509 33.3054 14.2243 32.8931L29.8801 23.3073C31.3791 22.3929 32.2761 20.7987 32.2797 19.0426C32.2833 17.2868 31.3927 15.6889 29.8982 14.7688Z"
+                fill="#0F172A"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="after-shabab">
+      <img src="image/dots.svg" alt="" class="dottss1" />
+      <img src="image/triangle-r.svg" alt="" class="triangless" />
+      <img src="image/traingles-purple.svg" alt="" class="purple-traingles" />
+      <div class="container">
+        <!-- explore-peake Section  -->
+        <div class="explore-peake my-5">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+              <div class="content">
+                <h3>استكشف القمة – عرض ثلاثي الأبعاد تفاعلي</h3>
+                <p>
+                  تقديم تجربة تفاعلية ليتجول افتراضيًا في موقع القمة، يتعرف على
+                  القاعات، أجنحة الجامعات والشركات، وأماكن الفعاليات، وكأنه
+                  موجود في الحدث
+                </p>
+                <button class="btn-custom btn">
+                  <a class="" href="">عرض</a>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <div class="circ">
+                <p class="dangrek-regular">360</p>
+                <div class="w-circ"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Committee Section  -->
+        <div id="committee">
+          <div class="heading">
+            <h3 class="title">اللجنة العليا والمستشارون</h3>
+            <h5 class="subtitle">نبذة قصيرة عن كل عضو أو مستشار</h5>
+          </div>
+          <div class="symbol text-center">
+            <svg
+              width="60"
+              height="43"
+              viewBox="0 0 60 43"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.837 42.0652C11.0326 42.0652 7.6087 40.5435 4.56522 37.5C1.52174 34.3478 0 29.7283 0 23.6413C0 16.6848 1.84783 11.0326 5.54348 6.68478C9.34783 2.22825 14.7283 0 21.6848 0C24.1848 0 26.1413 0.163038 27.5543 0.489121V7.98912C26.0326 7.77173 24.0761 7.66304 21.6848 7.66304C17.9891 7.66304 15 8.91304 12.7174 11.413C10.5435 13.5869 9.29348 16.4674 8.96739 20.0543C10.3804 18.3152 12.663 17.4456 15.8152 17.4456C19.0761 17.4456 21.8478 18.587 24.1304 20.8696C26.413 23.0435 27.5543 25.9239 27.5543 29.5109C27.5543 33.2065 26.3587 36.25 23.9674 38.6413C21.5761 40.9239 18.5326 42.0652 14.837 42.0652ZM47.2826 42.0652C43.4783 42.0652 40.0543 40.5435 37.0109 37.5C33.9674 34.3478 32.4456 29.7283 32.4456 23.6413C32.4456 16.6848 34.2935 11.0326 37.9891 6.68478C41.7935 2.22825 47.1739 0 54.1304 0C56.6304 0 58.587 0.163038 60 0.489121V7.98912C58.4783 7.77173 56.5217 7.66304 54.1304 7.66304C50.4348 7.66304 47.4456 8.91304 45.163 11.413C42.9891 13.5869 41.7391 16.4674 41.413 20.0543C42.8261 18.3152 45.1087 17.4456 48.2609 17.4456C51.5217 17.4456 54.2935 18.587 56.5761 20.8696C58.8587 23.0435 60 25.9239 60 29.5109C60 33.2065 58.8043 36.25 56.413 38.6413C54.0217 40.9239 50.9783 42.0652 47.2826 42.0652Z"
+                fill="#0F172A"
+              />
+            </svg>
+          </div>
+
+          <!-- Committee carousel  -->
+          <div class="committee-con">
+            <div class="nav-buttons">
+              <button id="prevBtn">
+                <i class="bi bi-caret-right-fill"></i>
+              </button>
+              <button id="nextBtn">
+                <i class="bi bi-caret-left-fill"></i>
+              </button>
+            </div>
+            <div class="committee-container" id="committee-container"></div>
+          </div>
+
+          <div id="description-box" class="description-box">
+            اضغط على أحد الأعضاء لعرض الوصف الوظيفي.
+          </div>
+
+          <button class="sponsor-button"><a href="">عرض الكل</a></button>
+        </div>
+        <!-- About Peak Section  -->
+        <div class="about">
+          <div class="row">
+            <div class="col-12 col-md-6 about-r">
+              <h4 class="large-heading">
+                قمة الابتكار والتكنولوجيا للشباب العربي
+              </h4>
+              <div class="list">
+                <div>
+                  <i class="bi bi-check-lg"></i>
+                  <p>اكتشف بيئة تقنية مبتكرة</p>
+                </div>
+                <div>
+                  <i class="bi bi-check-lg"></i>
+                  <p>استمتع بالمزايا والتطورات المتاحة</p>
+                </div>
+                <div>
+                  <i class="bi bi-check-lg"></i>
+                  <p>انطلق في رحلتك مع أحدث الأدوات والخدمات</p>
+                </div>
+              </div>
+              <button class="btn-custom"><a href="">عرض الكل</a></button>
+            </div>
+            <div class="col-12 col-md-6 about-l">
+              <div class="cont">
+                <div class="top">
+                  <div class="arrows">
+                    <svg
+                      width="8"
+                      height="15"
+                      viewBox="0 0 8 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.31372 7.57098L0.36372 2.62098C0.181562 2.43238 0.0807672 2.17978 0.0830456 1.91758C0.085324 1.65538 0.190493 1.40457 0.375901 1.21916C0.561309 1.03375 0.812122 0.928586 1.07432 0.926307C1.33652 0.924029 1.58912 1.02482 1.77772 1.20698L7.43472 6.86398C7.62219 7.05151 7.72751 7.30582 7.72751 7.57098C7.72751 7.83615 7.62219 8.09045 7.43472 8.27798L1.77772 13.935C1.58912 14.1171 1.33652 14.2179 1.07432 14.2157C0.812122 14.2134 0.561309 14.1082 0.375901 13.9228C0.190493 13.7374 0.085324 13.4866 0.0830456 13.2244C0.0807672 12.9622 0.181562 12.7096 0.36372 12.521L5.31372 7.57098Z"
+                        fill="#475569"
+                      />
+                    </svg>
+
+                    <svg
+                      width="9"
+                      height="15"
+                      viewBox="0 0 9 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.75656 7.49994L7.70656 12.4499C7.80207 12.5422 7.87825 12.6525 7.93066 12.7745C7.98307 12.8965 8.01066 13.0278 8.01181 13.1605C8.01296 13.2933 7.98766 13.425 7.93738 13.5479C7.8871 13.6708 7.81285 13.7824 7.71896 13.8763C7.62506 13.9702 7.51341 14.0445 7.39051 14.0948C7.26762 14.145 7.13594 14.1703 7.00316 14.1692C6.87038 14.168 6.73916 14.1404 6.61716 14.088C6.49515 14.0356 6.38481 13.9594 6.29256 13.8639L0.63556 8.20694C0.448089 8.01941 0.342773 7.7651 0.342773 7.49994C0.342773 7.23477 0.448089 6.98046 0.63556 6.79294L6.29256 1.13594C6.48116 0.953778 6.73376 0.852984 6.99596 0.855262C7.25816 0.857541 7.50897 0.96271 7.69438 1.14812C7.87979 1.33353 7.98496 1.58434 7.98723 1.84654C7.98951 2.10873 7.88872 2.36133 7.70656 2.54994L2.75656 7.49994Z"
+                        fill="#94A3B8"
+                      />
+                    </svg>
+                  </div>
+                  <div class="search">
+                    <p>قمة الابتكار والتكنولوجيا للشباب العربي</p>
+                  </div>
+
+                  <div class="dots">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                  </div>
+                </div>
+                <img src="image/تطور4.png" alt="" />
+
+                <div class="video-player">
+                  <a href=""
+                    ><svg
+                      width="33"
+                      height="38"
+                      viewBox="0 0 33 38"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M29.8982 14.7688L8.24186 1.41948C6.67507 0.454902 4.78079 0.414798 3.17454 1.3122C1.5683 2.20946 0.609375 3.84378 0.609375 5.68364V32.2607C0.609375 35.0427 2.85092 37.3181 5.60593 37.3331C5.61345 37.3331 5.62097 37.3332 5.62835 37.3332C6.4893 37.3331 7.38649 37.0633 8.22446 36.5519C8.89857 36.1407 9.11162 35.2608 8.70034 34.5868C8.28905 33.9126 7.40905 33.6996 6.73516 34.1109C6.34321 34.3499 5.96043 34.4736 5.62133 34.4735C4.58184 34.4679 3.46888 33.5774 3.46888 32.2608V5.68371C3.46888 4.89444 3.88023 4.19355 4.56917 3.80862C5.25817 3.42369 6.07064 3.44088 6.74189 3.85417L28.3983 17.2035C29.0492 17.6043 29.4216 18.2725 29.4201 19.0369C29.4185 19.8013 29.0433 20.468 28.3888 20.8674L12.7312 30.4543C12.0577 30.8667 11.846 31.7469 12.2584 32.4203C12.6707 33.0937 13.5509 33.3054 14.2243 32.8931L29.8801 23.3073C31.3791 22.3929 32.2761 20.7987 32.2797 19.0426C32.2833 17.2868 31.3927 15.6889 29.8982 14.7688Z"
+                        fill="#ffff"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid d-none d-md-block coustem-change mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-5">شركاؤنا في التغيير</h2>
+        </div>
+        <div class="col-sm-12 col-md-6 col-xl-3 mt-3 coustom-col">
+          <img src="./image/logo4.svg" class="rounded-circle" alt="" />
+        </div>
+        <div class="col-sm-12 col-md-6 col-xl-3 mt-3 coustom-col">
+          <img src="./image/coderz.svg" class="rounded-circle" alt="" />
+        </div>
+        <div
+          class="col-sm-12 col-md-6 mt-md-4 col-xl-3 mt-xl-3 mt-sm-3 coustom-col"
+        >
+          <img src="./image/gov.svg" class="rounded-circle" alt="" />
+        </div>
+        <div
+          class="col-sm-12 col-md-6 mt-md-4 col-xl-3 mt-xl-3 mt-sm-3 coustom-col"
+        >
+          <img src="./image/ministry.svg" class="rounded-circle" alt="" />
+        </div>
+        <div class="col-12">
+          <a href="#" class="btn btn-custom mt-4">كن شريك</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid partners coustem-change mt-5 d-md-none d-block">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-5 text-center">شركاؤنا في التغيير</h2>
+        </div>
+        <div class="col-12">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="./image/logo4.svg"
+                  class="rounded-circle img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./image/coderz.svg"
+                  class="rounded-circle img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./image/gov.svg"
+                  class="rounded-circle img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./image/ministry.svg"
+                  class="rounded-circle img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <a href="#" class="btn btn-custom mt-3">كن شريك</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Last News Section  -->
+    <section class="py-5 text-center" id="news">
+      <h2 class="mb-5">آخر الأخبار</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="news-card">
+              <div class="news-image">
+                <img
+                  src="./image/news.svg"
+                  alt="خبر 1"
+                  class="img-fluid zoom-img"
+                />
+              </div>
+
+              <h5>مواعيد جديدة وفعاليات مضافة</h5>
+              <p>اطلع على أي تغييرات في جدول البرنامج أو إضافة فعاليات خاصة</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="news-card">
+              <div class="news-image">
+                <img
+                  src="./image/news.svg"
+                  alt="خبر 1"
+                  class="img-fluid zoom-img"
+                />
+              </div>
+
+              <h5>مواعيد جديدة وفعاليات مضافة</h5>
+              <p>اطلع على أي تغييرات في جدول البرنامج أو إضافة فعاليات خاصة</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 mb-4">
+            <div class="news-card">
+              <div class="news-image">
+                <img
+                  src="./image/news.svg"
+                  alt="خبر 1"
+                  class="img-fluid zoom-img"
+                />
+              </div>
+
+              <h5>مواعيد جديدة وفعاليات مضافة</h5>
+              <p>اطلع على أي تغييرات في جدول البرنامج أو إضافة فعاليات خاصة</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section  -->
+    <section class="newsletter-section">
+      <h1 class="mb-3">اشترك في النشرة الإخبارية لدينا</h1>
+      <p class="mb-4" style="font-size: 16px; font-weight: 400">
+        سيبدأ التنزيل تلقائيًا، وإلا فانقر هنا. هل عليّ الاستسلام؟
+      </p>
+
+      <form class="d-flex justify-content-center form-container">
+        <input
+          type="email"
+          placeholder="أدخل بريدك الإلكتروني"
+          class="form-control"
+          required
+        />
+        <button type="submit" class="subscribe-btn">اشترك</button>
+      </form>
+
+      <div class="footer-info text-center mt-5 footer-text">
+        <img src="./image/ayitslogo.svg" class="mb-3" alt="" />
+        <p class="mb-5 mt-3">
+          A wide selection of unique and rare jewelry designs
+        </p>
+        <div class="d-flex flex-lg-row flex-column justify-content-center">
+          <p class="">
+            jewelry@mail.com
+            <i class="fa-regular fa-envelope icon"></i>
+          </p>
+          <p class="me-3" style="direction: ltr">
+            +962 25 555 22 1
+            <i class="fa-solid fa-phone icon"></i>
+          </p>
+        </div>
+
+        <div class="my-3">
+          <img
+            src="./image/logoo.svg"
+            class=""
+            alt="Forsan Almajd"
+            style="height: 80px; width: 80px"
+          />
+          <img
+            src="./image/Layer_1 (3).png"
+            class="me-3"
+            alt="Coderz Logo"
+            style="height: 40px; width: 80px"
+          />
+        </div>
+
+        <div class="social-icons mt-4 mb-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center mt-4 text-light">
+        <p class="copywrite-text">© فرسان المجد 2025، جميع الحقوق محفوظة</p>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

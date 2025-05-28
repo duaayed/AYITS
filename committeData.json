@@ -1,0 +1,35 @@
+[
+  {
+    "name": "د. ناصر الغامدي",
+    "title": "رئيس اللجنة العليا",
+    "jobDescription":
+      "د. ناصر الغامدي هي رئيسة اللجنة العليا، ولها دور كبير في إدارة الفريق.",
+    "image": "image/person1.jpg"
+  },
+  {
+    "name": "د. سمية الشمري",
+    "title": "نائبة الرئيس",
+    "jobDescription": "د. سمية الشمري نائبة الرئيس وتشارك في اتخاذ القرارات.",
+    "image": "https://randomuser.me/api/portraits/women/7.jpg"
+  },
+  {
+    "name": "د. ريم العتيبي",
+    "title": "عضوة اللجنة",
+    "jobDescription":
+      "د. ريم العتيبي عضوة فعالة في جميع اللجان وتعمل على التطوير.",
+    "image": "https://randomuser.me/api/portraits/women/8.jpg"
+  },
+  {
+    "name": "د. عبدالعزيز الزهراني",
+    "title": "المنسق العام",
+    "jobDescription":
+      "د. عبدالعزيز الزهراني هو المنسق العام المسؤول عن توزيع المهام.",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "name": "د. ماجد الحربي",
+    "title": "عضو تنفيذي",
+    "jobDescription": "د. ماجد الحربي يعمل كعضو تنفيذي ويهتم بتنفيذ الخطط.",
+    "image": "https://randomuser.me/api/portraits/men/10.jpg"
+  }
+]
